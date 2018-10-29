@@ -1,0 +1,16 @@
+FROM ubuntu:xenial
+#RUN  wget https://partner-images.canonical.com/core/bionic/current/ubuntu-bionic-core-cloudimg-amd64-root.tar.gz | wc -l
+RUN apt-get update
+RUN apt-get install net-tools
+RUN apt-get install -y iputils-ping vim wget
+RUN wget -O /etc/apt/sources.list.d/ambari.list http://public-repo-1.hortonworks.com/ambari/ubuntu16/2.x/updates/2.6.2.0/ambari.list
+RUN apt-get update
+
+#RUN apt-get install openssh-server 
+#RUN /etc/init.d/ssh start
+#RUN useradd test
+#RUN echo 'test:test123' | chpasswd
+
+
+#RUN apt-get install 
+EXPOSE 22
