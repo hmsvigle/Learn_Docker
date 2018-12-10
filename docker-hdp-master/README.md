@@ -57,8 +57,8 @@ To start with fresh containers, before each run do:
 docker-compose -f examples/compose/multi-container.yml rm
 Going to remove compose_ambari-server.dev_1, compose_dn0.dev_1, compose_master0.dev_1, compose_postgres.dev_1
 Are you sure? [yN] y
-Removing compose_ambari-server.dev_1 ... done
-Removing compose_dn0.dev_1 ... done
-Removing compose_master0.dev_1 ... done
-Removing compose_postgres.dev_1 ... done
+Removing compose_ambari-server.dev_1 ... done  
+Removing compose_dn0.dev_1 ... done  
+Removing compose_master0.dev_1 ... done  
+Removing compose_postgres.dev_1 ... done  
 ```
